@@ -92,7 +92,7 @@ export default class BasicTextFields extends React.Component {
                             <TextField
                                 id="outlined-multiline-static"
                                 className="textfield1"
-                                label="Enter keystring"
+                                label="Enter comma separated keywords"
                                 value={this.state.keystring}
                                 multiline
                                 rows={5}
