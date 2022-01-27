@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 export default function DenseAppBar() {
     return (
         <Box sx={{ flexGrow: 2 }}>
-            <AppBar position="static" sx={{ minHeight: 75 }}>
+            <AppBar position="fixed" sx={{ minHeight: 75 }}>
                 <Toolbar variant="dense">
 
                     <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2, marginTop: 3 }}>
